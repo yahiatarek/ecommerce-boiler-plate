@@ -1,0 +1,7 @@
+{
+    "*.tsx": ["eslint", "prettier"],
+    "*.jsx": ["eslint", "prettier"],
+    "*.css": ["stylelint", "prettier"],
+    "*.md": ["prettier"],
+    "*.json": ["prettier"]
+  }
