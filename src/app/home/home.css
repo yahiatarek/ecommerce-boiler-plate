@@ -1,0 +1,22 @@
+.main-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  z-index: -1;
+  background-color: #000000;
+  opacity: 0.55;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.main-section__bg-image {
+  z-index: -2;
+}
